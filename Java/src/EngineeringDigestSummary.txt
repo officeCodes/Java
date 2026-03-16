@@ -1,0 +1,43 @@
+Vid_5 : premitive data types in java
+-------
+1) Range of data types
+2) Wrapper class Min and Max value
+3) Widening/implicite/automatic type conversion
+4) Explicite/ narrowing type conversion
+===================================================
+Vid_10 : String Class Explained -  String Data Types, Heap Storage, and String Pool
+-------
+1) String or Any object is getting created inside Heap Memory using new keyword
+2) What is the difference between creating a string -->
+    --> using `new String("Ram")` keyword and `String s = "Ram"`
+    -- String a = new String("Ram"); // storing the string using heap memory - everytime creates new heap memory
+    -- String b = new String("Ram"); // same
+    -- System.out.println(a==b) // false // here we are checking string reference not equality(.equals())
+    --------------------------------------
+    -- String c = "Ram"; // storing the string using string POOL inside heap memory
+    -- String d = "Ram"; // same
+    -- System.out.println(c==d) // true // here we are checking string reference not equality(.equals())
+===================================================
+Vid_11 : String Methods // returns new string object
+-------
+1) ---
+    i) .length("")
+    ii) .charAt("")
+    iii) .equals("")
+    iv) .equalsIgnoreCase("")
+    v) .substring(starting_index, ending_index) // it excludes the ending_index
+    vi) .toUpperCase("")
+    vii) .toLowerCase("")
+    viii) .trim("")
+    ix) .replace("old_str", "new_str") // case sensitive
+    x) .contains("")
+    xi) .startsWith("")
+    xii) .endWith("")
+    xiii) .isEmpty("")
+    xiv) .isBlank("")
+    xv) .indexOf("")
+    xvi) .lastIndexOf("")
+    xvii) .valueOf(10) // converts integer into string
+    -----
+    xviii) String.format("%s, %d", "Jinn", 25);
+    xix) .subSequence()
